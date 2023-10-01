@@ -469,6 +469,8 @@ html, body {
         background-color: #eab5c9;
         border-radius: 25px;
         padding: 1.5%;
+        border-color: black;
+        border-width: 5px;
     }
 
      }
@@ -504,6 +506,8 @@ html, body {
             background-color: #eab5c9;
             border-radius: 25px;
             padding: 1.5%;
+            border-color: black;
+            border-width: 5px;
         }
 
         .education-section {
