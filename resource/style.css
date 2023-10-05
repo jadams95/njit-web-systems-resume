@@ -63,18 +63,19 @@ html, body {
      and (max-device-width : 480px) {
      /* Styles */
      .summary-section {
-        max-width: 500px;
+        max-width: 480px;
         margin-left: 40%;
         margin-top: 15px;
         text-align: center;
         background-color: #eab5c9;
         border-radius: 25px;
         padding: 1.5%;
+        float: left;
     }
 
     .resume-section {
-        max-width: 1000px;
-        margin-left: 30%;
+        max-width: 480px;
+        float: left;
         color: rgba(32, 32, 28, 0.952);
         margin-top: 15px;
         text-align: center;
@@ -90,17 +91,17 @@ html, body {
 
     .profile-section {
         text-align: left;
-        width: 90%;
-        height: 568px;
-        margin-left: 10%;
-        margin-right: 10%;
+        width: 70%;
+        height: 800px;
+        margin-left: 12.5%;
+        margin-right: 12.5%;
         background-color: #eab5c9;
         border-radius: 25px;
         padding: 5.5%;
         float: left;
     }
     footer {
-        margin-top: auto;
+        margin-top: 100%;
             
     }
 
@@ -245,6 +246,17 @@ html, body {
             margin-left: 40%;
             margin-top: 15px;
             text-align: center;
+            background-color: #eab5c9;
+            border-radius: 25px;
+            padding: 1.5%;
+        }
+
+        
+        .work-experience-section {
+            max-width: 70%;
+            margin-left: 12.5%;
+            margin-top: 1em;
+            text-align: left;
             background-color: #eab5c9;
             border-radius: 25px;
             padding: 1.5%;
