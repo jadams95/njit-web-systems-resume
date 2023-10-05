@@ -438,11 +438,12 @@ html, body {
         padding: 1.5%;
     }
 
-    .left-skill-section {
-        text-align: left;
-    }
     .right-skill-section {
-        text-align: right;
+        float: right;
+    }
+
+    .left-skill-section {
+        float: left
     }
 
     .left-skill-section > ul {
@@ -450,27 +451,66 @@ html, body {
         list-style-type: none;
         padding: 0;
         margin: 0;
-        display: inline;
     }
 
+
+    .left-skill-section > ul > li {
+        font-size: 1.2em;
+        margin-right: -10%;
+        display: list-item;
+        margin-left: 25%;
+        padding: 5%;
+        list-style: none;
+        
+    }
+
+    .left-skill-section > ul > li > span {
+        width: 25px;
+        float: right;
+        display: inline;
+        margin-bottom: 20%;
+        margin-top: -02.0%;
+        color: yellow;
+        margin-right: auto;
+        margin-left: auto;
+        padding: 1px;
+    }
+
+
     .right-skill-section > ul {
-        text-align: right;
+        text-align: left;
         list-style-type: none;
         padding: 0;
         margin: 0;
+    }
+
+    .right-skill-section > ul > li {
+        font-size: 1.2em;
+        float: right;
+        text-align: left;
+        display: list-item;
+        margin-left: 5%;
+    }
+
+    
+    .right-skill-section > ul > li > span {
+        width: 25px;
         display: inline;
+        color: yellow;
     }
 
     
     .skill-section {
-        max-width: 500px;
-        margin-left: 40%;
+        max-width: 900px;
+        margin-left: 30%;
         margin-top: 15px;
         background-color: #eab5c9;
         border-radius: 25px;
         padding: 1.5%;
         border-color: black;
         border-width: 5px;
+        height: 700px;
+        padding-right: 7%;
     }
 
      }
@@ -493,10 +533,13 @@ html, body {
         }
         .right-skill-section {
             display: inline;
+            float: right;
+            margin: 20% 20% 20% 20%;
         }
     
         .left-skill-section {
             display: inline;
+            float: left
         }
         .skill-section {
             max-width: 500px;
